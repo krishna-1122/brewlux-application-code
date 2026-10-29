@@ -1,0 +1,8 @@
+# Copy to sonar-project.properties when we configure SonarQube together.
+sonar.projectKey=brewlux-coffee-shop
+sonar.projectName=BrewLux Coffee Shop
+sonar.sources=services,shared
+sonar.tests=tests
+sonar.test.inclusions=tests/**/*.py
+sonar.python.version=3.11
+sonar.sourceEncoding=UTF-8
